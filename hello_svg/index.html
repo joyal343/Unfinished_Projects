@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            background-color:black ;
+        }
+        .card{
+            background-color: brown;
+            max-width: 300px;
+            position: relative;
+            overflow: hidden;
+        }
+        .pic{
+            width: 100%;
+            
+        }
+        .wave{
+            width: 200%;
+            position: absolute;
+            top: 0px;
+            left: 0rem;
+            /* border: 2px solid red ; */
+            animation: Wave 3s linear infinite;
+        }
+
+        @keyframes Wave {
+            0% {
+                transform: translateX(0%);
+            }            
+            100% {
+                transform: translateX(-50%);
+            }            
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <svg class="wave" id="eMCef5RIsT81" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M401.919253,800L0,800L1.919253,100C41.919253,80,60,80,100,100s60,20,100,0s60-20,100,0s61.919253,20,101.919253,0v700Z" transform="translate(-1.919253 0)" fill="#3f5787" stroke-width="0.8"/></svg>
+
+        <img class="pic" src="./saavyas-logo2.png" alt="">
+    </div>
+    
+    <script>
+        
+    </script>
+</body>
+</html>
